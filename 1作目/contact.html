@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="株式会社Study">
+  <meta name="description" content="説明">
+  <link rel="stylesheet" href="css/reset.css"> 
+  <link rel="stylesheet" href="css/style.css"> 
+  <title>お問い合わせ｜株式会社Study</title>
+</head>
+
+<body class="index">
+  <div class="wrapper">
+    <header>
+      <h1 class="inc"><a href="./index.html">株式会社Study</a></h1>
+
+      <nav class="global">
+        <ul>
+          <li><a href="./policy.html">企業理念</a></li>
+          <li><a href="./project.html">事業内容</a></li>
+          <li><a href="">個人向け総合</a></li>
+          <li><a href="">法人向け総合</a></li>
+          <li><a href="">リクルート</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="visual_contact">
+      <div class="shadow">
+        <h2 class="mds">お問い合わせ / contact</h2>
+        <p class="top2">どんな内容でもお気軽にお問い合わせください。</p>
+      </div>
+      </div>
+
+<!-- △ヘッダー／メイン▽ -->
+
+    <div class="content">
+      <main>
+      <section class="contact">
+        <h2>お問い合わせ</h2>
+        <p>
+          資料請求をご希望のお客様は、お住まいもご入力ください。<br>
+          ※お問い合わせのみのお客様はご記入の必要はありません。
+        </p>
+
+        <section class="form">
+        <form action="sample.cgi" method="post">
+
+          <table>
+            <tr>
+              <th>
+                <label for="name">お名前</label><br><br>
+                <label for="kana">フリガナ</label>
+              </th>
+              <td>
+                <input type="text" name="name" id="name" placeholder="山田　太郎"><br><br>
+                <input type="text" name="name" id="kana" placeholder="ヤマダ　タロウ">
+              </td>
+            </tr>
+
+            <tr>
+              <th><label for="mail">メールアドレス</label></th>
+              <td>
+                <input type="text" name="mail" id="mail"><br>
+                <input type="text" name="re_mail"><span class="attention">※確認のため、再度ご入力ください。</span>
+              </td>
+            </tr>
+
+            <tr>
+              <th>
+                <label for="number">郵便番号</label><br><br>
+                <label for="city">都道府県</label><br><br>
+                <label for="address1">市区町村</label><br><br>
+                <label for="address2">以下番地など</label><br><br>
+                <label for="apart">アパート名・部屋番号</label>
+              </th>
+              <td>
+                <input type="text" name="number" id="number" placeholder="0000000　※ハイフン不要"><br><br>
+
+                <select name="city">
+                  <option>ここから選択してください</option>
+                  <option value="hokkaido">北海道</option>
+                  <option value="aomori">青森県</option>
+                  <option value="akita">秋田県</option>
+                  <option value="iwate">岩手県</option>
+                  <option value="yamagata">山形県</option>
+                  <option value="miyagi">宮城県</option>
+                  <option value="hukusima">福島県</option>
+                  <option value="nigata">新潟県</option>
+                  <option value="tochigi">栃木県</option>
+                  <option value="ibaraki">茨城県</option>
+                  <option value="gunma">群馬県</option>
+                  <option value="toyama">富山県</option>
+                  <option value="ishikawa">石川県</option>
+                  <option value="nagano">長野県</option>
+                  <option value="gifu">岐阜県</option>
+                  <option value="tokyo">東京都</option>
+                  <option value="saitama">埼玉県</option>
+                  <option value="chiba">千葉県</option>
+                  <option value="kanagawa">神奈川県</option>
+                  <option value="yamanashi">山梨県</option>
+                  <option value="shizuoka">静岡県</option>
+                  <option value="fukui">福井県</option>
+                  <option value="ehime">愛知県</option>
+                  <option value="shiga">滋賀県</option>
+                  <option value="kyoto">京都府</option>
+                  <option value="mie">三重県</option>
+                  <option value="osaka">大阪府</option>
+                  <option value="nara">奈良県</option>
+                  <option value="wakayama">和歌山県</option>
+                  <option value="hyogo">兵庫県</option>
+                  <option value="tottori">鳥取県</option>
+                  <option value="okayama">岡山県</option>
+                  <option value="shimane">島根県</option>
+                  <option value="hiroshima">広島県</option>
+                  <option value="yamaguchi">山口県</option>
+                  <option value="kagawa">香川県</option>
+                  <option value="tokushima">徳島県</option>
+                  <option value="ehime">愛媛県</option>
+                  <option value="kochi">高知県</option>
+                  <option value="fukuoka">福岡県</option>
+                  <option value="oita">大分県</option>
+                  <option value="saga">佐賀県</option>
+                  <option value="nagasaki">長崎県</option>
+                  <option value="kumamoto">熊本県</option>
+                  <option value="miyazaki">宮崎県</option>
+                  <option value="kagoshima">鹿児島県</option>
+                  <option value="okinawa">沖縄県</option>
+                </select><br><br>
+
+                <input type="text" name="address1" id="address1" placeholder="〇〇市△△区"><br><br>
+                <input type="text" name="address2" id="address2" placeholder="0丁目00-0"><br><br>
+                <input type="text" name="apart" id="apart" placeholder="スタディアパート××号室">
+
+              </td>
+            </tr>
+
+            <tr>
+              <th>性別</th>
+              <td>
+                <input type="radio" name="gender" value="man" id="man">
+                <label for="man">男性</label>
+                <input type="radio" name="gender" value="woman" id="woman">
+                <label for="woman">女性</label>
+                <input type="radio" name="gender" value="none" id="none" checked>
+                <label for="none">無回答</label>
+              </td>
+            </tr>
+
+
+            <tr>
+              <th>資料請求</th>
+              <td>
+                <span class="ps">個人のお客様</span><br>
+                <input type="checkbox" name="info" value="talk" id="talk">
+                <label for="talk">英会話</label>
+                <input type="checkbox" name="info" value="short" id="short">
+                <label for="short">短期留学</label>
+                <input type="checkbox" name="info" value="long" id="long">
+                <label for="long">長期留学</label>
+                <input type="checkbox" name="info" value="working" id="working">
+                <label for="working">ワーキングホリデー</label><br>
+                <input type="checkbox" name="info" value="university" id="university">
+                <label for="university">大学留学</label>
+                <input type="checkbox" name="info" value="grad" id="grad">
+                <label for="grad">大学院留学</label>
+                <input type="checkbox" name="info" value="intern" id="intern">
+                <label for="intern">インターンシップ</label><br><br>
+
+                <span class="ps">法人のお客様</span><br>
+                <input type="checkbox" name="info" value="training" id="training">
+                <label for="training">研修</label>
+                <input type="checkbox" name="info" value="seminar" id="seminar">
+                <label for="seminar">セミナー</label>
+                <input type="checkbox" name="info" value="program" id="program">
+                <label for="program">教育プログラム</label>
+              </td>
+            </tr>
+
+            <tr>
+              <th><label for="">ニュースレターのお届け</label></th>
+              <td>
+                <input type="radio" name="magazine" value="yes" id="yes" checked>
+                <label for="yes">希望する</label>
+                <input type="radio" name="magazine" value="no" id="no">
+                <label for="no">希望しない</label>
+              </td>
+            </tr>
+
+            <tr>
+              <th><label for="comment">ご意見・お問い合わせ</label></th>
+              <td>
+                <textarea name="comment" rows="6" cols="80" id="comment" placeholder="ご意見・お問い合わせをこちらにご記入ください。"></textarea>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td colspan="2" class="send">
+                <input type="submit" value="送信" class="button">
+                <input type="reset" value="リセット" class="button">
+              </td>
+            </tr>
+
+
+          </table>
+
+        </form>
+        </section><!-- /.section.contact -->
+
+
+      </section>
+      </main>
+    </div><!-- /.content -->
+
+<!-- △メイン終了／フッター▽ -->
+
+    <footer>
+      <div class="content">
+
+        <hr>
+
+        <nav class="local">
+          <ul>
+            <li><a href="#">プライバシーポリシー</a></li>
+            <li><a href="#">サイトポリシー</a></li>
+            <li><a href="#">アクセス</a></li>
+            <li><a href="#">よくあるご質問</a></li>
+          </ul>
+        </nav>
+
+        <section>
+          <div class="access">
+            <h2 class="inc">株式会社Study</h2>
+            <address>
+              〒123-4567<br>
+              東京都新宿区信濃町1234-56
+            </address>
+        </div>
+        </section>
+
+        <small>Copyright &copy; 1998 Study Inc. All rights reserved.</small>
+
+        
+      </div><!-- /.content -->
+
+    </footer>
+
+    <!-- <a href="#"><div class="fix">お問い合わせ</div></a> -->
+
+  </div><!-- /.wrapper -->
+</body>
+
+</html>
+
